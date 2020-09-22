@@ -1,0 +1,29 @@
+body
+  {
+    position:relative;
+  }
+  #navbar {
+  overflow: hidden;
+  background-color: #e6e6e6;
+}
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  
+  z-index: 1;
+  margin-bottom: 50px;
+  
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+.cart-qty-value
+{
+  size: 4;
+  text-align:center;
+}

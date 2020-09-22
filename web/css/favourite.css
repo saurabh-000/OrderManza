@@ -1,0 +1,74 @@
+#favourite-item-div
+    {
+      width:98%;
+      padding: 10px;
+      background-color: white;
+       clear: both;
+    content: "";
+    display: table;
+    }
+    .column
+    {
+      width:40%;
+      float: left;
+      margin: 2%;
+      background-color: white;
+
+    }
+    .wishlist-img-div
+    {
+      margin: 4%;
+      padding-left:15%;
+      background-color: white;
+    }
+    .wishlist-desc-div
+    {
+     margin: 4%;
+      background-color: white;
+      z-index: 1;
+      box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.2); 
+    }
+    .wishlist-item-price
+    {
+      margin: 4%;
+      margin-top: 40px;
+      width:20%;
+      background-color: darkslateblue;
+      color:white;
+      z-index: 1;
+      padding-left: 30px;
+      box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.2);
+      border-radius: 5px;
+      padding: 10px; 
+    }
+    #main
+    {
+      background-color: #e6e6e6;
+      padding: 10px;
+
+    }
+    #row-desc
+    {
+      border: none;
+    }
+    #wishlist-item-add-to-cart-button,#wishlist-item-buy-button
+    {
+      margin: 15px;
+      background-color: white;
+      color:darkslateblue;
+      border:none;
+      border-radius: 10px;
+      padding: 10px;
+      box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.2);
+
+    }
+    #wishlist-item-buy-button
+    {
+      margin: 15px;
+    }
+    #wishlist-item-add-to-cart-button:hover,#wishlist-item-buy-button:hover
+    {
+      background-color: darkslateblue;
+      color:white;
+      cursor: pointer;
+    }

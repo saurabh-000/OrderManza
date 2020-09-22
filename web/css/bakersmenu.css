@@ -1,0 +1,25 @@
+table
+	{
+		margin:20px;
+	}
+	td
+	{
+	
+	    padding:10px;
+		width:200px;
+		text-align: center;
+
+	}
+	th
+	{
+		text-align: center;
+	}
+	.fa 
+	{
+		
+		color:#5BBD50;
+	}
+	.fa:hover
+	{
+		color:#e24425;
+	}
